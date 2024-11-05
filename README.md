@@ -36,6 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## instalar o prisma
+
 npm install prisma@5.21.1
 
 ## migration (mudança do estado do banco de dados sem tabela para um estado com tabelas)
@@ -47,3 +48,7 @@ npx prisma format
 ## tailwindcss prettier
 
 npm install -D prettier prettier-plugin-tailwindcss
+
+## instalar shadcn
+
+npx shadcn@2.1.3 init
