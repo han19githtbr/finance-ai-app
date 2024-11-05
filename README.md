@@ -41,3 +41,9 @@ npm install prisma@5.21.1
 ## migration (mudança do estado do banco de dados sem tabela para um estado com tabelas)
 
 npx prisma migrate dev --name init_db
+
+npx prisma format
+
+## tailwindcss prettier
+
+npm install -D prettier prettier-plugin-tailwindcss
