@@ -64,3 +64,11 @@ npm install @clerk/nextjs@5.7.5
 ## instalar o clerk themes
 
 npm install @clerk/themes@2.1.37
+
+## instalar o husky para usar git hooks
+
+npm install -D husky@9.1.6
+
+npm install -D lint-staged@12.3.2
+
+npx husky init
