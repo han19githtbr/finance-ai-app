@@ -52,3 +52,15 @@ npm install -D prettier prettier-plugin-tailwindcss
 ## instalar shadcn
 
 npx shadcn@2.1.3 init
+
+## adicionar um botão
+
+npx shadcn@2.1.3 add button
+
+## instalar o clerk
+
+npm install @clerk/nextjs@5.7.5
+
+## instalar o clerk themes
+
+npm install @clerk/themes@2.1.37
