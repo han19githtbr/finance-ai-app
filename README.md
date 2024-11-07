@@ -72,3 +72,21 @@ npm install -D husky@9.1.6
 npm install -D lint-staged@12.3.2
 
 npx husky init
+
+## Acrescentar uma alteração nas tabelas(neste caso user_id)
+
+npx prisma migrate dev --name add_user_id_to_transaction
+
+## instalar prisma
+
+npm install @prisma/client@5.21.1
+
+## instalar o shadcn table
+
+npx shadcn@2.1.3 add table
+
+npm install @tanstack/react-table@8.20.5
+
+## instalar badge
+
+npx shadcn@2.1.3 add badge
