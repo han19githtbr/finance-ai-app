@@ -90,3 +90,27 @@ npm install @tanstack/react-table@8.20.5
 ## instalar badge
 
 npx shadcn@2.1.3 add badge
+
+## instalar dialog box
+
+npx shadcn@2.1.3 add dialog
+
+## instalar form
+
+npx shadcn@2.1.3 add form
+
+## instalar input
+
+npx shadcn@2.1.3 add input
+
+## para criar um input monetário
+
+npm i react-number-format
+
+## instalar o select
+
+npx shadcn@2.1.3 add select
+
+## para poder usar data
+
+npx shadcn@2.1.3 add popover calendar
