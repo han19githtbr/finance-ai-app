@@ -87,19 +87,19 @@ npx shadcn@2.1.3 add table
 
 npm install @tanstack/react-table@8.20.5
 
-## instalar badge
+## adicionar badge
 
 npx shadcn@2.1.3 add badge
 
-## instalar dialog box
+## adicionar dialog box
 
 npx shadcn@2.1.3 add dialog
 
-## instalar form
+## adicionar um form
 
 npx shadcn@2.1.3 add form
 
-## instalar input
+## adicionar um input
 
 npx shadcn@2.1.3 add input
 
@@ -107,10 +107,44 @@ npx shadcn@2.1.3 add input
 
 npm i react-number-format
 
-## instalar o select
+## adicionar um select
 
 npx shadcn@2.1.3 add select
 
 ## para poder usar data
 
 npx shadcn@2.1.3 add popover calendar
+
+## adicionar um card
+
+npx shadcn@2.1.3 add card
+
+## adicionar um chart
+
+npx shadcn@2.1.3 add chart
+
+## adicionar um scroll
+
+npx shadcn@2.1.3 add scroll-area
+
+## adicionar um progress bar
+
+npx shadcn@2.1.3 add progress
+
+## instalar o stripe
+
+npm install stripe@17.3.1
+
+## instalar o stripe/stripe-js
+
+npm install @stripe/stripe-js@4.9.0
+
+## Listen to Stripe events
+
+1. Download the CLI
+
+$ stripe login
+
+2. Forward events to your webhook
+
+stripe listen --forward-to http://localhost:3000/api/webhooks/stripe
