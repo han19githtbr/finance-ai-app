@@ -10,6 +10,7 @@ import {
   TRANSACTION_PAYMENT_METHOD_LABELS,
 } from "@/app/_constants/transactions";
 import EditTransactionButton from "../_components/edit-transaction-button";
+//import DeleteTransaction
 
 export const transactionColumns: ColumnDef<Transaction>[] = [
   {

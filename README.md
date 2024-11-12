@@ -148,3 +148,19 @@ $ stripe login
 2. Forward events to your webhook
 
 stripe listen --forward-to http://localhost:3000/api/webhooks/stripe
+
+## instalar tooltip
+
+npx shadcn@2.1.3 add tooltip
+
+## instalar openai
+
+npm i openai@4.71.1
+
+## instalar react-markdown
+
+npm i react-markdown@9.0.1
+
+## instalar tailwindcss typography
+
+npm install -D @tailwindcss/typography@0.5.15
