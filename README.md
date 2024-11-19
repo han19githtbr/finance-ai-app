@@ -164,3 +164,7 @@ npm i react-markdown@9.0.1
 ## instalar tailwindcss typography
 
 npm install -D @tailwindcss/typography@0.5.15
+
+## instalar sonner
+
+npx shadcn@2.1.3 add sonner
