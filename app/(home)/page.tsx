@@ -2,7 +2,7 @@ import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import Navbar from "../_components/navbar";
 import SummaryCards from "./_components/summary-cards";
-//import TimeSelect from "./_components/time-select";
+import TimeSelect from "./_components/time-select";
 import { isMatch } from "date-fns";
 import TransactionsPieChart from "./_components/transaction-pie-chart";
 import { getDashboard } from "../_data/get-dashboard";
@@ -37,10 +37,10 @@ const Home = async ({ searchParams: { month } }: HomeProps) => {
       <div className="flex h-full flex-col space-y-6 overflow-hidden p-6">
         <div className="flex justify-between">
           <h1 className="text-2xl font-bold">Dashboard</h1>
-          {/*<div className="flex items-center gap-3">
-            <AiReportButton month={month} hasPremiumPlan={false} />
+          <div className="flex items-center gap-3">
+            {/*<AiReportButton month={month} hasPremiumPlan={false} />*/}
             <TimeSelect />
-          </div>*/}
+          </div>
         </div>
         <div className="grid h-full grid-cols-[2fr,1fr] gap-6 overflow-hidden">
           <div className="flex flex-col gap-6 overflow-hidden">
